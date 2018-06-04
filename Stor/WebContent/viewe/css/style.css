@@ -1,0 +1,100 @@
+@charset "UTF-8";
+navbar{
+ background:#F97300;
+}
+.nav-link , .navbar-brand{
+ color: #f4f4f4;
+ cursor: pointer;
+}
+.nav-link{
+ margin-right: 1em !important;
+}
+.nav-link:hover{
+ background: #f4f4f4;
+ color: #f97300;
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#fff !important;
+}
+.header{
+ background-image: url('D:/Workspace/Stor/WebContent/viewe/img/engineering-2.jpg');
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+ height: 33%;
+}
+.leftmenu{
+	font-variant: normal;
+	 color: SaddleBrown;
+	 font-weight: 300;
+	  text-decoration: 
+	  underline; font-size: 
+	  medium; font-family: 
+	  Georgia, "Times New Roman", Serif; 
+	  font-style: italic; 
+	  margin-left:10px;
+	  margin-top:15px;
+}
+.center{
+	justify-content: center;
+}
+h1{
+	text-align:center;
+	vertical-align: center;
+	color: green;
+}
+body{
+  
+background: radial-gradient(at top, #FEFFFF, #A7CECC);
+}
+.midlle{
+	
+margin-top: 10px;
+	
+}
+.image{
+	display:inline-block;
+	width: 45rem;
+	height: 400px;
+}
+.image img {
+    max-width: 100%;
+    height:auto;
+    max-height:100%;
+   
+}
+.quoteText2 {
+	vertical-align:middle;
+display:inline-block;
+ font-size:45px;
+ font-family:'Scada',georgia,serif;
+ line-height:50px;
+ text-align:center;
+ padding:50px 5px 10px 0;
+ max-width:45rem;
+ margin-left:5px;
+ margin-right: 50px;
+}
+.kor{
+	font-size:25px;
+ font-family:'Scada',georgia,serif;
+}
+.ssilka {
+border:1px solid #ccc; 
+background:#eaeaea;
+padding: .2em .75em; 
+text-decoration: none; 
+width: 100%;
+}
+.table{
+text-align: center;
+margin-top: 10px;
+width: 66%;
+margin-left: 15%;
+}
+.list-group-hover :hover{
+	background-color: #dfe5e5;
+}
